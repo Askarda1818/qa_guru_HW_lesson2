@@ -5,11 +5,12 @@ package org.example;
 public class Main {
     private static String name = "Hello qa.guru!";
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.println(name);
 
+        System.out.println(getMessage());
 
+    }
 
+    private static String getMessage(){
+        return  name;
     }
 }
